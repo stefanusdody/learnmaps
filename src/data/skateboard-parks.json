@@ -1,0 +1,935 @@
+{
+  "features": [
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Bantar Gebang",
+        "konfimasi": "1",
+        "PDP": "1",
+        "ODP": "28",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.978449,-6.3405674],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Ciketing Udik",
+        "konfimasi": "2",
+        "PDP": "0",
+        "ODP": "0",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.97611,-6.35278],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Cikiwul",
+        "konfimasi": "0",
+        "PDP": "4",
+        "ODP": "2",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.9872404,-6.3447432],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Sumur Batu",
+        "konfimasi": "1",
+        "PDP": "1",
+        "ODP": "1",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.0006145785934,-6.340187842818342],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Bintara",
+        "konfimasi": "2",
+        "PDP": "6",
+        "ODP": "37",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.957040,-6.228190],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Bintara Jaya",
+        "konfimasi": "1",
+        "PDP": "3",
+        "ODP": "9",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.947397,-6.239439],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jakasampurna",
+        "konfimasi": "2",
+        "PDP": "6",
+        "ODP": "21",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.962858,-6.248881],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Kota Baru",
+        "konfimasi": "1",
+        "PDP": "5",
+        "ODP": "3",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.966066,-6.207266],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Kranji",
+        "konfimasi": "0",
+        "PDP": "4",
+        "ODP": "6",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.971540,-6.222083],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jaka Setia",
+        "konfimasi": "0",
+        "PDP": "3",
+        "ODP": "10",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.975508,-6.277471],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jakamulya",
+        "konfimasi": "3",
+        "PDP": "7",
+        "ODP": "21",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.969541,-6.275875],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Kayuringin Jaya",
+        "konfimasi": "14",
+        "PDP": "12",
+        "ODP": "37",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.982080,-6.237553],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Marga Jaya",
+        "konfimasi": "0",
+        "PDP": "10",
+        "ODP": "12",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.996303,-6.236392],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pekayon Jaya",
+        "konfimasi": "5",
+        "PDP": "10",
+        "ODP": "12",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.981593,-6.268691],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Aren Jaya",
+        "konfimasi": "6",
+        "PDP": "3",
+        "ODP": "15",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.040933,-6.245588],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Bekasi Jaya",
+        "konfimasi": "4",
+        "PDP": "13",
+        "ODP": "13",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.011381,-6.231731],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Duren Jaya",
+        "konfimasi": "5",
+        "PDP": "17",
+        "ODP": "11",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.024574,-6.239386],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Margahayu",
+        "konfimasi": "5",
+        "PDP": "13",
+        "ODP": "22",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.024574,-6.239386],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Harapan Baru",
+        "konfimasi": "1",
+        "PDP": "5",
+        "ODP": "5",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.016341,-6.209021],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Harapan Jaya",
+        "konfimasi": "0",
+        "PDP": "6",
+        "ODP": "24",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.987424,-6.203190],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Kaliabang Tengah",
+        "konfimasi": "2",
+        "PDP": "11",
+        "ODP": "24",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.000088,-6.175969],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Marga Mulya",
+        "konfimasi": "0",
+        "PDP": "2",
+        "ODP": "8",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.004760,-6.229815],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Perwira",
+        "konfimasi": "4",
+        "PDP": "4",
+        "ODP": "12",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.003949,-6.205900],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Teluk Pucung",
+        "konfimasi": "2",
+        "PDP": "8",
+        "ODP": "10",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.030183,-6.218214],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jati Rasa",
+        "konfimasi": "1",
+        "PDP": "2",
+        "ODP": "9",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.968534,-6.291073],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jati Sari",
+        "konfimasi": "0",
+        "PDP": "4",
+        "ODP": "2",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.945189,-6.339114],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatiasih",
+        "konfimasi": "4",
+        "PDP": "10",
+        "ODP": "16",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.964314,-6.293984],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatikarya",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "5",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.918837,-6.377631],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatikramat",
+        "konfimasi": "2",
+        "PDP": "4",
+        "ODP": "8",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.947041,-6.277644],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatiluhur",
+        "konfimasi": "4",
+        "PDP": "4",
+        "ODP": "5",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.950424,-6.319714],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatimekar",
+        "konfimasi": "1",
+        "PDP": "1",
+        "ODP": "10",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.943320,-6.289518],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jati Karya",
+        "konfimasi": "8",
+        "PDP": "1",
+        "ODP": "1",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.922327,-6.381816],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatiraden",
+        "konfimasi": "1",
+        "PDP": "0",
+        "ODP": "1",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.922146,-6.353868],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatirangga",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "6",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.922146,-6.353868],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatiranggon",
+        "konfimasi": "0",
+        "PDP": "1",
+        "ODP": "10",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.927435,-6.339652],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatisampurna",
+        "konfimasi": "0",
+        "PDP": "1",
+        "ODP": "21",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.923156,-6.363395],
+        "type": "Point"
+      }
+    },
+
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Harapan Mulya",
+        "konfimasi": "1",
+        "PDP": "3",
+        "ODP": "5",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.990769,-6.230516],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Kali Baru",
+        "konfimasi": "3",
+        "PDP": "1",
+        "ODP": "7",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.977056,-6.220795],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Medan Satria",
+        "konfimasi": "2",
+        "PDP": "2",
+        "ODP": "3",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.976883,-6.193943],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pejuang",
+        "konfimasi": "6",
+        "PDP": "10",
+        "ODP": "56",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.976883,-6.193943],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Cimuning",
+        "konfimasi": "0",
+        "PDP": "4",
+        "ODP": "15",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.026329,-6.319510],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Mustikajaya",
+        "konfimasi": "7",
+        "PDP": "11",
+        "ODP": "22",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.030340,-6.296960],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Mustikasari",
+        "konfimasi": "2",
+        "PDP": "4",
+        "ODP": "22",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.001758,-6.297848],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pedurenan",
+        "konfimasi": "1",
+        "PDP": "5",
+        "ODP": "0",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.008442,-6.313972],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatibening",
+        "konfimasi": "2",
+        "PDP": "6",
+        "ODP": "18",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.950784,-6.266335],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatibening Baru",
+        "konfimasi": "0",
+        "PDP": "1",
+        "ODP": "6",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.943574,-6.262297],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jaticempaka",
+        "konfimasi": "5",
+        "PDP": "3",
+        "ODP": "12",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.919810,-6.260114],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatimakmur",
+        "konfimasi": "2",
+        "PDP": "12",
+        "ODP": "10",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.931010,-6.280440],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatiwaringin",
+        "konfimasi": "1",
+        "PDP": "2",
+        "ODP": "12",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.914079,-6.281717],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatimelati",
+        "konfimasi": "0",
+        "PDP": "1",
+        "ODP": "9",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.930324,-6.315776],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatimurni",
+        "konfimasi": "0",
+        "PDP": "1",
+        "ODP": "2",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.934336,-6.326098],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatirahayu",
+        "konfimasi": "4",
+        "PDP": "3",
+        "ODP": "8",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.922957,-6.288293],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatiwarna",
+        "konfimasi": "0",
+        "PDP": "1",
+        "ODP": "18",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.922957,-6.288293],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Bojong Menteng",
+        "konfimasi": "3",
+        "PDP": "4",
+        "ODP": "9",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.984612,-6.297061],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Bojong Rawalumbu",
+        "konfimasi": "5",
+        "PDP": "16",
+        "ODP": "46",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.998272,-6.281211],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Bojong Rawalumbu",
+        "konfimasi": "5",
+        "PDP": "16",
+        "ODP": "46",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.998272,-6.281211],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pengasinan",
+        "konfimasi": "10",
+        "PDP": "7",
+        "ODP": "35",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [107.009250,-6.270095],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Sepanjang Jaya",
+        "konfimasi": "1",
+        "PDP": "7",
+        "ODP": "12",
+        "update": "12/4/2020",
+        "sumber": "https://corona.bekasikota.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.997565,-6.267066],
+        "type": "Point"
+      }
+    }
+
+  ],
+  "type": "FeatureCollection"
+}
