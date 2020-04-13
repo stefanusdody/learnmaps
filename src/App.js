@@ -93,7 +93,7 @@ const App = () => {
           >
             <Card >
               <CardContent>
-               <Typography variant="h5" component="h2">
+               <Typography variant="h5" component="h2" align="center">
                  {selectedPark.properties.title}
                </Typography>
                <br/>
@@ -141,6 +141,19 @@ const App = () => {
                   <Typography variant="body2" component="p" align="center">
                      {selectedPark.properties.sumber}
                   </Typography>
+                  <br/>
+
+                  <Typography variant="body2" component="p" align="center">
+                     Disclaimer
+                  </Typography>
+
+                  <Typography variant="body2" component="p" align="center">
+                     Titik yang ditunjukan pada peta merujuk pada titik area Kelurahan
+                  </Typography>
+                  <Typography variant="body2" component="p" align="center">
+                     (bukan titik lokasi/tempat tinggal pasien)
+                  </Typography>
+
               </CardContent>
             </Card >
           </Popup>

@@ -8,7 +8,7 @@
         "konfimasi": "1",
         "PDP": "1",
         "ODP": "28",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -24,7 +24,7 @@
         "konfimasi": "2",
         "PDP": "0",
         "ODP": "0",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -40,7 +40,7 @@
         "konfimasi": "0",
         "PDP": "4",
         "ODP": "2",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -56,7 +56,7 @@
         "konfimasi": "1",
         "PDP": "1",
         "ODP": "1",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -71,8 +71,8 @@
         "title": "Kelurahan Bintara",
         "konfimasi": "2",
         "PDP": "6",
-        "ODP": "37",
-        "update": "12/4/2020",
+        "ODP": "36",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -86,9 +86,9 @@
       "properties": {
         "title": "Kelurahan Bintara Jaya",
         "konfimasi": "1",
-        "PDP": "3",
+        "PDP": "4",
         "ODP": "9",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -104,7 +104,7 @@
         "konfimasi": "2",
         "PDP": "6",
         "ODP": "21",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -120,7 +120,7 @@
         "konfimasi": "1",
         "PDP": "5",
         "ODP": "3",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -134,9 +134,9 @@
       "properties": {
         "title": "Kelurahan Kranji",
         "konfimasi": "0",
-        "PDP": "4",
+        "PDP": "6",
         "ODP": "6",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -152,7 +152,7 @@
         "konfimasi": "0",
         "PDP": "3",
         "ODP": "10",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -168,7 +168,7 @@
         "konfimasi": "3",
         "PDP": "7",
         "ODP": "21",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -182,9 +182,9 @@
       "properties": {
         "title": "Kelurahan Kayuringin Jaya",
         "konfimasi": "14",
-        "PDP": "12",
+        "PDP": "13",
         "ODP": "37",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -198,9 +198,9 @@
       "properties": {
         "title": "Kelurahan Marga Jaya",
         "konfimasi": "0",
-        "PDP": "10",
+        "PDP": "8",
         "ODP": "12",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -215,8 +215,8 @@
         "title": "Kelurahan Pekayon Jaya",
         "konfimasi": "5",
         "PDP": "10",
-        "ODP": "12",
-        "update": "12/4/2020",
+        "ODP": "15",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -229,10 +229,10 @@
       "type": "Feature",
       "properties": {
         "title": "Kelurahan Aren Jaya",
-        "konfimasi": "6",
-        "PDP": "3",
+        "konfimasi": "7",
+        "PDP": "5",
         "ODP": "15",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -246,9 +246,9 @@
       "properties": {
         "title": "Kelurahan Bekasi Jaya",
         "konfimasi": "4",
-        "PDP": "13",
+        "PDP": "14",
         "ODP": "13",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -264,7 +264,7 @@
         "konfimasi": "5",
         "PDP": "17",
         "ODP": "11",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -280,7 +280,7 @@
         "konfimasi": "5",
         "PDP": "13",
         "ODP": "22",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -296,7 +296,7 @@
         "konfimasi": "1",
         "PDP": "5",
         "ODP": "5",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -312,7 +312,7 @@
         "konfimasi": "0",
         "PDP": "6",
         "ODP": "24",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -326,9 +326,9 @@
       "properties": {
         "title": "Kelurahan Kaliabang Tengah",
         "konfimasi": "2",
-        "PDP": "11",
+        "PDP": "13",
         "ODP": "24",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -344,7 +344,7 @@
         "konfimasi": "0",
         "PDP": "2",
         "ODP": "8",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -360,7 +360,7 @@
         "konfimasi": "4",
         "PDP": "4",
         "ODP": "12",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -376,7 +376,7 @@
         "konfimasi": "2",
         "PDP": "8",
         "ODP": "10",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -392,7 +392,7 @@
         "konfimasi": "1",
         "PDP": "2",
         "ODP": "9",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -408,7 +408,7 @@
         "konfimasi": "0",
         "PDP": "4",
         "ODP": "2",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -422,9 +422,9 @@
       "properties": {
         "title": "Kelurahan Jatiasih",
         "konfimasi": "4",
-        "PDP": "10",
+        "PDP": "12",
         "ODP": "16",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -440,7 +440,7 @@
         "konfimasi": "0",
         "PDP": "0",
         "ODP": "5",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -456,7 +456,7 @@
         "konfimasi": "2",
         "PDP": "4",
         "ODP": "8",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -472,7 +472,7 @@
         "konfimasi": "4",
         "PDP": "4",
         "ODP": "5",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -488,7 +488,7 @@
         "konfimasi": "1",
         "PDP": "1",
         "ODP": "10",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -504,7 +504,7 @@
         "konfimasi": "8",
         "PDP": "1",
         "ODP": "1",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -520,7 +520,7 @@
         "konfimasi": "1",
         "PDP": "0",
         "ODP": "1",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -536,7 +536,7 @@
         "konfimasi": "0",
         "PDP": "0",
         "ODP": "6",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -552,7 +552,7 @@
         "konfimasi": "0",
         "PDP": "1",
         "ODP": "10",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -568,7 +568,7 @@
         "konfimasi": "0",
         "PDP": "1",
         "ODP": "21",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -585,7 +585,7 @@
         "konfimasi": "1",
         "PDP": "3",
         "ODP": "5",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -599,9 +599,9 @@
       "properties": {
         "title": "Kelurahan Kali Baru",
         "konfimasi": "3",
-        "PDP": "1",
+        "PDP": "2",
         "ODP": "7",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -617,7 +617,7 @@
         "konfimasi": "2",
         "PDP": "2",
         "ODP": "3",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -631,9 +631,9 @@
       "properties": {
         "title": "Kelurahan Pejuang",
         "konfimasi": "6",
-        "PDP": "10",
+        "PDP": "11",
         "ODP": "56",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -649,7 +649,7 @@
         "konfimasi": "0",
         "PDP": "4",
         "ODP": "15",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -663,9 +663,9 @@
       "properties": {
         "title": "Kelurahan Mustikajaya",
         "konfimasi": "7",
-        "PDP": "11",
+        "PDP": "12",
         "ODP": "22",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -681,7 +681,7 @@
         "konfimasi": "2",
         "PDP": "4",
         "ODP": "22",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -697,7 +697,7 @@
         "konfimasi": "1",
         "PDP": "5",
         "ODP": "0",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -711,9 +711,9 @@
       "properties": {
         "title": "Kelurahan Jatibening",
         "konfimasi": "2",
-        "PDP": "6",
+        "PDP": "10",
         "ODP": "18",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -729,7 +729,7 @@
         "konfimasi": "0",
         "PDP": "1",
         "ODP": "6",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -742,10 +742,10 @@
       "type": "Feature",
       "properties": {
         "title": "Kelurahan Jaticempaka",
-        "konfimasi": "5",
+        "konfimasi": "6",
         "PDP": "3",
         "ODP": "12",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -761,7 +761,7 @@
         "konfimasi": "2",
         "PDP": "12",
         "ODP": "10",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -777,7 +777,7 @@
         "konfimasi": "1",
         "PDP": "2",
         "ODP": "12",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -793,7 +793,7 @@
         "konfimasi": "0",
         "PDP": "1",
         "ODP": "9",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -809,7 +809,7 @@
         "konfimasi": "0",
         "PDP": "1",
         "ODP": "2",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -825,7 +825,7 @@
         "konfimasi": "4",
         "PDP": "3",
         "ODP": "8",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -841,7 +841,7 @@
         "konfimasi": "0",
         "PDP": "1",
         "ODP": "18",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -857,7 +857,7 @@
         "konfimasi": "3",
         "PDP": "4",
         "ODP": "9",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -873,7 +873,7 @@
         "konfimasi": "5",
         "PDP": "16",
         "ODP": "46",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -882,21 +882,6 @@
       }
     },
 
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Kelurahan Bojong Rawalumbu",
-        "konfimasi": "5",
-        "PDP": "16",
-        "ODP": "46",
-        "update": "12/4/2020",
-        "sumber": "https://corona.bekasikota.go.id/"
-      },
-      "geometry": {
-        "coordinates": [106.998272,-6.281211],
-        "type": "Point"
-      }
-    },
 
     {
       "type": "Feature",
@@ -905,7 +890,7 @@
         "konfimasi": "10",
         "PDP": "7",
         "ODP": "35",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
@@ -921,7 +906,7 @@
         "konfimasi": "1",
         "PDP": "7",
         "ODP": "12",
-        "update": "12/4/2020",
+        "update": "13-april-2020",
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
