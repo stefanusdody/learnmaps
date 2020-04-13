@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import ReactMapGL, { Marker} from "react-map-gl";
+import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import { makeStyles } from '@material-ui/core/styles';
 import PinDropIcon from '@material-ui/icons/PinDrop';
-import MenuItem from '@material-ui/core/MenuItem';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
@@ -10,13 +9,22 @@ import Badge from '@material-ui/core/Badge';
 import Typography from '@material-ui/core/Typography';
 import * as parkDate from "./data/skateboard-parks.json";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
   root: {
-    '& > *': {
-      margin: theme.spacing(1),
-    },
+    minWidth: 275,
   },
-}));
+  bullet: {
+    display: 'inline-block',
+    margin: '0 2px',
+    transform: 'scale(0.8)',
+  },
+  title: {
+    fontSize: 14,
+  },
+  pos: {
+    marginBottom: 12,
+  },
+});
 
 const App = () => {
   const [viewport, setViewport] = useState({
@@ -27,6 +35,7 @@ const App = () => {
     zoom: 12
   });
 
+  const classes = useStyles();
   const [selectedPark, setSelectedPark] = useState(null);
 
   useEffect(() => {
@@ -44,7 +53,7 @@ const App = () => {
 
 
   return (
-     <Grid item xs={12} sm={12} md={12}>
+    <Grid item xs={12} sm={12} md={12}>
       <ReactMapGL
       {...viewport}
       mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
@@ -58,7 +67,6 @@ const App = () => {
             key={park.properties.PARK_ID}
             latitude={park.geometry.coordinates[1]}
             longitude={park.geometry.coordinates[0]}
-
           >
           <div
           onClick={e => {
@@ -75,10 +83,13 @@ const App = () => {
         ))}
 
         {selectedPark ? (
-          <MenuItem
+          <Popup
+            className={classes.root}
             latitude={selectedPark.geometry.coordinates[1]}
             longitude={selectedPark.geometry.coordinates[0]}
-
+            onClose={() => {
+              setSelectedPark(null);
+            }}
           >
             <Card >
               <CardContent>
@@ -86,71 +97,57 @@ const App = () => {
                  {selectedPark.properties.title}
                </Typography>
                <br/>
-               <Grid container spacing={2}>
 
-                 <Grid item xs={6} sm={6} md={6}>
-                  <Typography variant="body2" component="p">
+                  <Typography variant="body2" component="p" align="center">
                      Pasien Positif
                   </Typography>
-                 </Grid>
-                 <Grid item xs={6} sm={6} md={6}>
-                  <Typography variant="body2" component="p" align="right">
-                     {selectedPark.properties.konfimasi}
-                  </Typography>
-                 </Grid>
 
-                 <Grid item xs={6} sm={6} md={6}>
-                  <Typography variant="body2" component="p">
+                  <Typography variant="body2" component="p" align="center">
+                   {selectedPark.properties.konfimasi}
+                  </Typography>
+                  <br/>
+
+                  <Typography variant="body2" component="p" align="center">
                      Pasien Dalam Pengawasan (PDP)
                   </Typography>
-                 </Grid>
-                 <Grid item xs={6} sm={6} md={6}>
-                  <Typography variant="body2" component="p" align="right">
+
+                  <Typography variant="body2" component="p" align="center">
                      {selectedPark.properties.PDP}
                   </Typography>
-                 </Grid>
+                  <br/>
 
-                 <Grid item xs={6} sm={6} md={6}>
-                  <Typography variant="body2" component="p">
+                  <Typography variant="body2" component="p" align="center">
                      Orang Dalam Pemantauan (ODP)
                   </Typography>
-                 </Grid>
-                 <Grid item xs={6} sm={6} md={6}>
-                  <Typography variant="body2" component="p" align="right">
+
+                  <Typography variant="body2" component="p" align="center">
                      {selectedPark.properties.ODP}
                   </Typography>
-                 </Grid>
+                  <br/>
 
-                 <Grid item xs={6} sm={6} md={6}>
-                  <Typography variant="body2" component="p">
+                  <Typography variant="body2" component="p" align="center">
                      Data Update
                   </Typography>
-                 </Grid>
-                 <Grid item xs={6} sm={6} md={6}>
-                  <Typography variant="body2" component="p" align="right">
+
+                  <Typography variant="body2" component="p" align="center">
                      {selectedPark.properties.update}
                   </Typography>
-                 </Grid>
+                  <br/>
 
-                 <Grid item xs={4} sm={4} md={4}>
-                  <Typography variant="body2" component="p">
+                  <Typography variant="body2" component="p" align="center">
                      Sumber Data
                   </Typography>
-                 </Grid>
-                 <Grid item xs={8} sm={8} md={8}>
-                  <Typography variant="body2" component="p" align="right">
+
+                  <Typography variant="body2" component="p" align="center">
                      {selectedPark.properties.sumber}
                   </Typography>
-                 </Grid>
-
-               </Grid>
               </CardContent>
             </Card >
-          </MenuItem>
+          </Popup>
         ) : null}
 
       </ReactMapGL>
-      </Grid>
+     </Grid>
   );
 }
 
