@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import { makeStyles } from '@material-ui/core/styles';
-import PinDropIcon from '@material-ui/icons/PinDrop';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
@@ -11,7 +10,7 @@ import * as parkDate from "./data/skateboard-parks.json";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
+    Width: 50,
   },
   bullet: {
     display: 'inline-block',
@@ -57,7 +56,7 @@ const App = () => {
       <ReactMapGL
       {...viewport}
       mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
-      mapStyle="mapbox://styles/stefanusdody1984/ck8u8q2m414ow1io1gi4sihjy"
+      mapStyle="mapbox://styles/stefanusdody1984/ck8u8nvrx14ml1io1shwto85d"
       onViewportChange={viewport => {
           setViewport(viewport);
         }}
@@ -74,9 +73,7 @@ const App = () => {
           setSelectedPark(park);
           }}
           >
-           <Badge badgeContent={park.properties.konfimasi} color="secondary">
-             <PinDropIcon/>
-           </Badge>
+           <Badge badgeContent={park.properties.konfimasi} color="secondary" />
            </div>
           </Marker>
 
@@ -84,14 +81,13 @@ const App = () => {
 
         {selectedPark ? (
           <Popup
-            className={classes.root}
             latitude={selectedPark.geometry.coordinates[1]}
             longitude={selectedPark.geometry.coordinates[0]}
             onClose={() => {
               setSelectedPark(null);
             }}
           >
-            <Card >
+            <Card className={classes.root}>
               <CardContent>
                <Typography variant="h5" component="h2" align="center">
                  {selectedPark.properties.title}
