@@ -829,7 +829,7 @@
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
-        "coordinates": [106.923054,-6.288271],
+        "coordinates": [106.923032,-6.288474],
         "type": "Point"
       }
     },
@@ -845,7 +845,7 @@
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
-        "coordinates": [106.922957,-6.288293],
+        "coordinates": [106.931329,-6.303807],
         "type": "Point"
       }
     },
