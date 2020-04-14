@@ -268,7 +268,7 @@
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
-        "coordinates": [107.024574,-6.239386],
+        "coordinates": [107.024628,-6.239589],
         "type": "Point"
       }
     },
@@ -284,7 +284,7 @@
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
-        "coordinates": [107.024574,-6.239386],
+        "coordinates": [107.009840,-6.249793],
         "type": "Point"
       }
     },
@@ -524,7 +524,7 @@
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
-        "coordinates": [106.922146,-6.353868],
+        "coordinates": [106.922200,-6.353879],
         "type": "Point"
       }
     },
@@ -540,7 +540,7 @@
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
-        "coordinates": [106.922146,-6.353868],
+        "coordinates": [106.932907,-6.361650],
         "type": "Point"
       }
     },
@@ -621,7 +621,7 @@
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
-        "coordinates": [106.976883,-6.193943],
+        "coordinates": [106.976916,-6.193965],
         "type": "Point"
       }
     },
@@ -829,7 +829,7 @@
         "sumber": "https://corona.bekasikota.go.id/"
       },
       "geometry": {
-        "coordinates": [106.922957,-6.288293],
+        "coordinates": [106.923054,-6.288271],
         "type": "Point"
       }
     },
