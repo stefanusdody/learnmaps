@@ -10,7 +10,7 @@ import * as parkDate from "./data/skateboard-parks.json";
 
 const useStyles = makeStyles({
   root: {
-    Width: 50,
+    minWidth: 275,
   },
   bullet: {
     display: 'inline-block',
@@ -27,12 +27,13 @@ const useStyles = makeStyles({
 
 const App = () => {
   const [viewport, setViewport] = useState({
-    latitude: -6.2349858,
-    longitude: 106.9945444,
+    latitude: -6.226208,
+    longitude: 106.886707,
     width: "100%",
     height: "100vh",
-    zoom: 12
+    zoom: 11
   });
+
 
   const classes = useStyles();
   const [selectedPark, setSelectedPark] = useState(null);
@@ -73,7 +74,13 @@ const App = () => {
           setSelectedPark(park);
           }}
           >
-           <Badge badgeContent={park.properties.konfimasi} color="secondary" />
+           {park.properties.konfimasi > 0 && (
+            <Badge badgeContent={park.properties.konfimasi} color="secondary" />
+           )}
+           {park.properties.konfimasi < 1 && (
+            <Badge badgeContent={park.properties.konfimasi} color="primary" />
+           )}
+
            </div>
           </Marker>
 
