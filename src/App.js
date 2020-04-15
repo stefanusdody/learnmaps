@@ -8,7 +8,8 @@ import Badge from '@material-ui/core/Badge';
 import Typography from '@material-ui/core/Typography';
 import * as parkDate from "./data/skateboard-parks.json";
 
-const useStyles = makeStyles({
+
+const useStyles = makeStyles((theme) => ({
   root: {
     minWidth: 275,
   },
@@ -21,9 +22,9 @@ const useStyles = makeStyles({
     fontSize: 14,
   },
   pos: {
-    marginBottom: 12,
+    backgroundColor: theme.palette.secondary.main,
   },
-});
+}));
 
 const App = () => {
   const [viewport, setViewport] = useState({
@@ -31,7 +32,7 @@ const App = () => {
     longitude: 106.886707,
     width: "100%",
     height: "100vh",
-    zoom: 11
+    zoom: 11.5
   });
 
 
@@ -74,7 +75,7 @@ const App = () => {
           setSelectedPark(park);
           }}
           >
-           {park.properties.konfimasi > 0 && (
+           {park.properties.konfimasi > 0  && (
             <Badge badgeContent={park.properties.konfimasi} color="secondary" />
            )}
            {park.properties.konfimasi < 1 && (
