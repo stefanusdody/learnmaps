@@ -3857,6 +3857,502 @@
       }
     },
 
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Gambir",
+        "konfimasi": "1",
+        "PDP": "1",
+        "ODP": "2",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.819569,-6.179898],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Cakung Barat",
+        "konfimasi": "2",
+        "PDP": "3",
+        "ODP": "1",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.942008,-6.181808],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Cikini",
+        "konfimasi": "4",
+        "PDP": "2",
+        "ODP": "1",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.839050,-6.188861],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Cikoko",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "2",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.852808,-6.246306],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Kampung Melayu",
+        "konfimasi": "3",
+        "PDP": "2",
+        "ODP": "2",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.859734,-6.214549],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Kuningan Barat",
+        "konfimasi": "0",
+        "PDP": "1",
+        "ODP": "6",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.820635,-6.236744],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Kwitang",
+        "konfimasi": "1",
+        "PDP": "1",
+        "ODP": "1",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.840950,-6.186772],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Marunda",
+        "konfimasi": "1",
+        "PDP": "5",
+        "ODP": "1",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.958287,-6.124782],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Rawa Terate",
+        "konfimasi": "0",
+        "PDP": "1",
+        "ODP": "2",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.922685,-6.185686],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Roa Malaka",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "1",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.807483,-6.132539],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Senen",
+        "konfimasi": "1",
+        "PDP": "3",
+        "ODP": "1",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.842535,-6.172440],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Serdang",
+        "konfimasi": "2",
+        "PDP": "2",
+        "ODP": "2",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.856277,-6.159040],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatinegara",
+        "konfimasi": "3",
+        "PDP": "6",
+        "ODP": "1",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.905365,-6.197402],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Rawa Badak Utara",
+        "konfimasi": "1",
+        "PDP": "4",
+        "ODP": "4",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.898761,-6.119149],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Tanah Sereal",
+        "konfimasi": "2",
+        "PDP": "0",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.808622,-6.158748],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Duri Selatan",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.801971,-6.157441],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Duri Utara",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.801890,-6.154852],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Jatinegara Kaum",
+        "konfimasi": "1",
+        "PDP": "1",
+        "ODP": "2",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.897845,-6.209172],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Kali Anyar",
+        "konfimasi": "1",
+        "PDP": "0",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.799300,-6.156359],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Krukut",
+        "konfimasi": "0",
+        "PDP": "2",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.816871,-6.155235],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Mangga Besar",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.819294,-6.147329],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Manggarai Selatan",
+        "konfimasi": "3",
+        "PDP": "3",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.847234,-6.217913],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pulau Harapan",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "44",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.578083,-5.652581],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pulau Kelapa",
+        "konfimasi": "0",
+        "PDP": "2",
+        "ODP": "18",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.571362,-5.653273],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pulau Panggang",
+        "konfimasi": "0",
+        "PDP": "6",
+        "ODP": "26",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.603209,-5.741182],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pulau Pari",
+        "konfimasi": "0",
+        "PDP": "4",
+        "ODP": "2",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.584062,-5.927471],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pulau Tidung",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "14",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.499308,-5.798954],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Pinangsia",
+        "konfimasi": "1",
+        "PDP": "2",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.819672,-6.138197],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Setia Budi",
+        "konfimasi": "0",
+        "PDP": "3",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.823928,-6.208293],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Tambora",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "0",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.808602,-6.146794],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kelurahan Untung Jawa",
+        "konfimasi": "0",
+        "PDP": "0",
+        "ODP": "9",
+        "update": "14-april-2020",
+        "sumber": "https://corona.jakarta.go.id/"
+      },
+      "geometry": {
+        "coordinates": [106.706434,-5.978721],
+        "type": "Point"
+      }
+    },
+
 
 
 

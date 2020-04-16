@@ -22,14 +22,14 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 14,
   },
   pos: {
-    backgroundColor: theme.palette.secondary.main,
+    backgroundColor: theme.secondary
   },
 }));
 
 const App = () => {
   const [viewport, setViewport] = useState({
-    latitude: -6.226208,
-    longitude: 106.886707,
+    latitude: -6.175360,
+    longitude: 106.827164,
     width: "100%",
     height: "100vh",
     zoom: 11.5
@@ -75,11 +75,49 @@ const App = () => {
           setSelectedPark(park);
           }}
           >
-           {park.properties.konfimasi > 0  && (
-            <Badge badgeContent={park.properties.konfimasi} color="secondary" />
-           )}
+
            {park.properties.konfimasi < 1 && (
             <Badge badgeContent={park.properties.konfimasi} color="primary" />
+           )}
+
+           {park.properties.konfimasi == 1 && (
+            <Badge badgeContent={park.properties.konfimasi} color="error" />
+           )}
+
+           {park.properties.konfimasi == 2 && (
+            <Badge badgeContent={park.properties.konfimasi} color="error" />
+           )}
+
+           {park.properties.konfimasi == 3 && (
+            <Badge badgeContent={park.properties.konfimasi} color="error" />
+           )}
+
+           {park.properties.konfimasi == 4 && (
+            <Badge badgeContent={park.properties.konfimasi} color="error" />
+           )}
+
+           {park.properties.konfimasi == 5 && (
+            <Badge badgeContent={park.properties.konfimasi} color="error" />
+           )}
+
+           {park.properties.konfimasi == 6 && (
+            <Badge badgeContent={park.properties.konfimasi} color="error" />
+           )}
+
+           {park.properties.konfimasi == 7 && (
+            <Badge badgeContent={park.properties.konfimasi} color="error" />
+           )}
+
+           {park.properties.konfimasi == 8 && (
+            <Badge badgeContent={park.properties.konfimasi} color="error" />
+           )}
+
+           {park.properties.konfimasi == 9 && (
+            <Badge badgeContent={park.properties.konfimasi} color="error" />
+           )}
+
+           {park.properties.konfimasi >= 10  && (
+            <Badge badgeContent={park.properties.konfimasi} color="secondary" />
            )}
 
            </div>
