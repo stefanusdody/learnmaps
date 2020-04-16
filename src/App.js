@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
-import { makeStyles } from '@material-ui/core/styles';
+import { withStyles } from "@material-ui/core/styles";
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
@@ -8,35 +9,31 @@ import Badge from '@material-ui/core/Badge';
 import Typography from '@material-ui/core/Typography';
 import * as parkDate from "./data/skateboard-parks.json";
 
+const styles = theme => ({
+  safe: {
+    backgroundColor: "#8bc34a",
+    color: "white"
+  },
+  warning: {
+    backgroundColor: "#e57373",
+    color: "white"
+  },
+  danger: {
+    backgroundColor: "#b71c1c",
+    color: "white"
+  },
+});
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    minWidth: 275,
-  },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
-  title: {
-    fontSize: 14,
-  },
-  pos: {
-    backgroundColor: theme.secondary
-  },
-}));
-
-const App = () => {
+const App = (props) => {
   const [viewport, setViewport] = useState({
-    latitude: -6.175360,
-    longitude: 106.827164,
+    latitude: -6.236217,
+    longitude: 106.994227,
     width: "100%",
     height: "100vh",
-    zoom: 11.5
+    zoom: 12
   });
 
-
-  const classes = useStyles();
+  const { classes } = props;
   const [selectedPark, setSelectedPark] = useState(null);
 
   useEffect(() => {
@@ -77,47 +74,47 @@ const App = () => {
           >
 
            {park.properties.konfimasi < 1 && (
-            <Badge badgeContent={park.properties.konfimasi} color="primary" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.safe }}/>
            )}
 
            {park.properties.konfimasi == 1 && (
-            <Badge badgeContent={park.properties.konfimasi} color="error" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
            )}
 
            {park.properties.konfimasi == 2 && (
-            <Badge badgeContent={park.properties.konfimasi} color="error" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
            )}
 
            {park.properties.konfimasi == 3 && (
-            <Badge badgeContent={park.properties.konfimasi} color="error" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
            )}
 
            {park.properties.konfimasi == 4 && (
-            <Badge badgeContent={park.properties.konfimasi} color="error" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
            )}
 
            {park.properties.konfimasi == 5 && (
-            <Badge badgeContent={park.properties.konfimasi} color="error" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
            )}
 
            {park.properties.konfimasi == 6 && (
-            <Badge badgeContent={park.properties.konfimasi} color="error" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
            )}
 
            {park.properties.konfimasi == 7 && (
-            <Badge badgeContent={park.properties.konfimasi} color="error" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
            )}
 
            {park.properties.konfimasi == 8 && (
-            <Badge badgeContent={park.properties.konfimasi} color="error" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
            )}
 
            {park.properties.konfimasi == 9 && (
-            <Badge badgeContent={park.properties.konfimasi} color="error" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
            )}
 
            {park.properties.konfimasi >= 10  && (
-            <Badge badgeContent={park.properties.konfimasi} color="secondary" />
+            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.danger }} />
            )}
 
            </div>
@@ -133,7 +130,7 @@ const App = () => {
               setSelectedPark(null);
             }}
           >
-            <Card className={classes.root}>
+            <Card>
               <CardContent>
                <Typography variant="h5" component="h2" align="center">
                  {selectedPark.properties.title}
@@ -206,4 +203,8 @@ const App = () => {
   );
 }
 
-export default App;
+App.propTypes = {
+  classes: PropTypes.object.isRequired
+};
+
+export default withStyles(styles)(App);
