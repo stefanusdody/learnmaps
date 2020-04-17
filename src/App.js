@@ -26,8 +26,8 @@ const styles = theme => ({
 
 const App = (props) => {
   const [viewport, setViewport] = useState({
-    latitude: -6.236217,
-    longitude: 106.994227,
+    latitude: -6.240344,
+    longitude: 106.854319,
     width: "100%",
     height: "100vh",
     zoom: 12
@@ -146,23 +146,6 @@ const App = (props) => {
                   </Typography>
                   <br/>
 
-                  <Typography variant="body2" component="p" align="center">
-                     Pasien Dalam Pengawasan (PDP)
-                  </Typography>
-
-                  <Typography variant="body2" component="p" align="center">
-                     {selectedPark.properties.PDP}
-                  </Typography>
-                  <br/>
-
-                  <Typography variant="body2" component="p" align="center">
-                     Orang Dalam Pemantauan (ODP)
-                  </Typography>
-
-                  <Typography variant="body2" component="p" align="center">
-                     {selectedPark.properties.ODP}
-                  </Typography>
-                  <br/>
 
                   <Typography variant="body2" component="p" align="center">
                      Data Update
