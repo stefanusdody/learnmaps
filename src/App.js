@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import Badge from '@material-ui/core/Badge';
 import Typography from '@material-ui/core/Typography';
-import * as parkDate from "./data/skateboard-parks.json";
+
 
 const styles = theme => ({
   safe: {
@@ -25,6 +25,7 @@ const styles = theme => ({
 });
 
 const App = (props) => {
+
   const [viewport, setViewport] = useState({
     latitude: -6.240344,
     longitude: 106.854319,
@@ -60,126 +61,7 @@ const App = (props) => {
           setViewport(viewport);
         }}
       >
-      {parkDate.features.map(park => (
-          <Marker
-            key={park.properties.PARK_ID}
-            latitude={park.geometry.coordinates[1]}
-            longitude={park.geometry.coordinates[0]}
-          >
-          <div
-          onClick={e => {
-          e.preventDefault();
-          setSelectedPark(park);
-          }}
-          >
 
-           {park.properties.konfimasi < 1 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.safe }}/>
-           )}
-
-           {park.properties.konfimasi == 1 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
-           )}
-
-           {park.properties.konfimasi == 2 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
-           )}
-
-           {park.properties.konfimasi == 3 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
-           )}
-
-           {park.properties.konfimasi == 4 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
-           )}
-
-           {park.properties.konfimasi == 5 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
-           )}
-
-           {park.properties.konfimasi == 6 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
-           )}
-
-           {park.properties.konfimasi == 7 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
-           )}
-
-           {park.properties.konfimasi == 8 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
-           )}
-
-           {park.properties.konfimasi == 9 && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.warning }}/>
-           )}
-
-           {park.properties.konfimasi >= 10  && (
-            <Badge badgeContent={park.properties.konfimasi} classes={{ badge: classes.danger }} />
-           )}
-
-           </div>
-          </Marker>
-
-        ))}
-
-        {selectedPark ? (
-          <Popup
-            latitude={selectedPark.geometry.coordinates[1]}
-            longitude={selectedPark.geometry.coordinates[0]}
-            onClose={() => {
-              setSelectedPark(null);
-            }}
-          >
-            <Card>
-              <CardContent>
-               <Typography variant="h5" component="h2" align="center">
-                 {selectedPark.properties.title}
-               </Typography>
-               <br/>
-
-                  <Typography variant="body2" component="p" align="center">
-                     Pasien Positif
-                  </Typography>
-
-                  <Typography variant="body2" component="p" align="center">
-                   {selectedPark.properties.konfimasi}
-                  </Typography>
-                  <br/>
-
-
-                  <Typography variant="body2" component="p" align="center">
-                     Data Update
-                  </Typography>
-
-                  <Typography variant="body2" component="p" align="center">
-                     {selectedPark.properties.update}
-                  </Typography>
-                  <br/>
-
-                  <Typography variant="body2" component="p" align="center">
-                     Sumber Data
-                  </Typography>
-
-                  <Typography variant="body2" component="p" align="center">
-                     {selectedPark.properties.sumber}
-                  </Typography>
-                  <br/>
-
-                  <Typography variant="body2" component="p" align="center">
-                     Disclaimer
-                  </Typography>
-
-                  <Typography variant="body2" component="p" align="center">
-                     Titik yang ditunjukan pada peta merujuk pada titik area Kelurahan
-                  </Typography>
-                  <Typography variant="body2" component="p" align="center">
-                     (bukan titik lokasi/tempat tinggal pasien)
-                  </Typography>
-
-              </CardContent>
-            </Card >
-          </Popup>
-        ) : null}
 
       </ReactMapGL>
      </Grid>
