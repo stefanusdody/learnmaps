@@ -3,16 +3,10 @@ import PropTypes from "prop-types";
 import {
   GoogleMap,
   useLoadScript,
-  Marker,
-  InfoWindow,
+  Marker
 } from "@react-google-maps/api";
-import Container from '@material-ui/core/Container';
-
 import { withStyles } from "@material-ui/core/styles";
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
-import Badge from '@material-ui/core/Badge';
 import Typography from '@material-ui/core/Typography';
 import { getData } from './cartHelpers';
 
@@ -38,11 +32,6 @@ const mapContainerStyle = {
   width: "100%",
 };
 
-const center = {
-  lat: -6.200000,
-  lng: 106.816666,
-};
-
 const options = {
   disableDefaultUI: true,
   zoomControl: true,
@@ -50,7 +39,6 @@ const options = {
 
 const Maps = (props) => {
 
-  const { classes } = props;
 
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
@@ -58,16 +46,6 @@ const Maps = (props) => {
   });
 
   const [ data, setData ] = useState([])
-  const [selected, setSelected] = React.useState(null);
-
-  const [viewport, setViewport] = useState({
-    latitude: -6.200000,
-    longitude: 106.816666,
-    width: "100%",
-    height: "100vh",
-    zoom: 5
-  });
-
 
   useEffect(() => {
     setData(getData())
@@ -78,38 +56,65 @@ const Maps = (props) => {
 
   return (
     <div>
+    {data.map((r,i) => (
     <GoogleMap
+      key={i}
       id="map"
       mapContainerStyle={mapContainerStyle}
-      zoom={5}
-      center={center}
+      zoom={12}
+      center={{ lat: r.latitudeCurrent, lng: r.longitudeCurrent }}
       options={options}
     >
-    {data.map((r,i) => (
-      <div key={i}>
+
+      <div>
        <Marker
          position={{ lat: r.latitudeCurrent, lng: r.longitudeCurrent }}
-         onClick={() => {
-              setSelected(data);
-            }}
        />
       </div>
-    ))}
-
-    {selected ? (
-          <InfoWindow
-            position={{ lat: selected.latitudeCurrent, lng: selected.longitudeCurrent }}
-          >
-            <div>
-              <h2>
-                Alert
-              </h2>
-            </div>
-          </InfoWindow>
-        ) : null}
 
 
     </GoogleMap>
+    ))}
+    <br/>
+    {data.map((r,i) => (
+        <Grid key={i} container spacing={3} >
+            <Grid item xs={12} sm={12} md={12}>
+                <Typography gutterBottom variant="h6" component="p">
+                   Phone data :
+                </Typography>
+                <Typography variant="body2" component="p">
+                   {r.UserAgent}
+                </Typography>
+            </Grid>
+
+            <Grid item xs={12} sm={12} md={12}>
+                <Typography gutterBottom variant="h6" component="p">
+                   Operating System :
+                </Typography>
+                <Typography variant="body2" component="p">
+                   {r.OperatingSystem}
+                </Typography>
+            </Grid>
+
+            <Grid item xs={12} sm={12} md={12}>
+                <Typography gutterBottom variant="h6" component="p">
+                   Browser :
+                </Typography>
+                <Typography variant="body2" component="p">
+                   {r.Browser}
+                </Typography>
+            </Grid>
+
+            <Grid item xs={12} sm={12} md={12}>
+                <Typography gutterBottom variant="h6" component="p">
+                   Device Dimensions  :
+                </Typography>
+                <Typography variant="body2" component="p">
+                   {r.ScreenHeight} x {r.ScreenWidth} Pixel
+                </Typography>
+            </Grid>
+         </Grid>
+    ))}
     </div>
   );
 }

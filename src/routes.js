@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
-import App from './App';
 import Navbar from './core/navbar';
 import Home from './core/home';
 import Maps from './core/maps';
